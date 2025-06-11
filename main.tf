@@ -7,6 +7,6 @@ resource "random_id" "bucket_id" {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "devops-course-bucket-123456"  
+  bucket = "devops-course-bucket-${random_id.bucket_id.hex}"  
   acl    = "private"
 }
