@@ -8,7 +8,7 @@ This project contains a Terraform configuration and a GitHub Actions workflow to
 - GitHub Actions workflow with:
   - `terraform-check`: checks Terraform formatting
   - `terraform-plan`: previews infrastructure changes
-  - `terraform-apply`: applies changes on push to the default branch (`main` or `master`)
+  - `terraform-apply`: applies changes on push to the default branch (`main`)
 
 ---
 
